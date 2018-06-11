@@ -1,0 +1,60 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": "bb4df0f1d98a3d0e63b6c9686261671dfc85d515"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "Rocket.Chat.RestAPI/1.0.0": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.1",
+          "RestSharp": "106.3.0"
+        },
+        "runtime": {
+          "Rocket.Chat.RestAPI.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.1": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "RestSharp/106.3.0": {
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Rocket.Chat.RestAPI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oA6nwv9MhEKYvLpjZ0ggSpb1g4CQViDVQjLUcDWg598jtvJbpfeP2reqwI1GLW2TbxC/Ml7xL6BBR1HmKPXlTg==",
+      "path": "netstandard.library/2.0.1",
+      "hashPath": "netstandard.library.2.0.1.nupkg.sha512"
+    },
+    "RestSharp/106.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4ObVo8XyYZ5jcOGFLXv1L8Qias6g46DAIj7ej27vUEDrbX/VwJrd0h75dlTowDIu41TBBfoBUGoQQW0cv5wfFQ==",
+      "path": "restsharp/106.3.0",
+      "hashPath": "restsharp.106.3.0.nupkg.sha512"
+    }
+  }
+}
